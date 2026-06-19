@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints
+.venv/
+venv/
+env/
+ENV/
+
+# Databases & local data
+backend/chatbot.db
+backend/qdrant_db_temp/
+*.db
+*.sqlite3
+
+# Uploads directory - keep directory structure but ignore uploaded files
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Scratch directory
+backend/scratch/
+backend/database/scratch/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+dist-ssr/
+.eslintcache
+
+# Logs & Temp files
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

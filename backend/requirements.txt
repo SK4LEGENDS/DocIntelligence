@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+docling
+langgraph
+qdrant-client
+sentence-transformers
+rank-bm25
+ollama
+python-multipart

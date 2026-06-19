@@ -1,0 +1,11 @@
+{
+  "name": "pdf-chatbot-root",
+  "version": "1.0.0",
+  "description": "Unified launcher for Hierarchical Agentic PDF Chatbot",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "author": "Antigravity",
+  "license": "ISC"
+}
